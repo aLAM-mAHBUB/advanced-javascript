@@ -18,6 +18,8 @@ console.log(fullName);
 const names = students.map((s) => s.name);
 const ids = students.map((s) => s.id);
 const specialIds = students.filter((s) => s.id > 40);
+
+// find method returns only the first matching element
 const findsOnlyOne = students.find((s) => s.id > 50);
 console.log(names, ids, specialIds);
 console.log(findsOnlyOne);
